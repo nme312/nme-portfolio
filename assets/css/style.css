@@ -1,5 +1,5 @@
 .header-container {
-    border-bottom-style: groove;
+    border-bottom-style: dashed;
     border-color: grey;
     height: 90px;
     float: right;
@@ -8,6 +8,7 @@
 .name-plate {
     font-size: 35px;
     padding-top: 16px;
+    padding-left: 55px;
     height: 90px;
     float: right;
 }
@@ -15,10 +16,16 @@
 .navbar-col {
     height: 90px;
     padding-top: 18px;
+    padding-right: 50px;
+    float: right;
 }
 
 .nav-buttons {
     font-size: 20px;
+    float: right;
+}
+
+.navbar {
     float: right;
 }
 
