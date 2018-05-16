@@ -1,8 +1,20 @@
-.navbar {
+.header-container {
+    border-bottom-style: groove;
+    border-color: grey;
+    height: 90px;
+    float: right;
+}
+
+.name-plate {
     font-size: 35px;
-    height: 60px;
-    border-bottom: 50px;
-    border-color: blue;
+    padding-top: 16px;
+    height: 90px;
+    float: right;
+}
+
+.navbar-col {
+    height: 90px;
+    padding-top: 18px;
 }
 
 .nav-buttons {
@@ -12,9 +24,4 @@
 
 a {
     color: gold;
-}
-
-.container {
-    border-style: dashed;
-    border-color: blue;
 }
