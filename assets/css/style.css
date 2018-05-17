@@ -1,28 +1,24 @@
-.header-container {
-    border-bottom-style: dashed;
-    border-color: grey;
-    height: 90px;
-    float: right;
-}
-
-.name-plate {
+.name-plate-col {
     font-size: 35px;
     padding-top: 16px;
     padding-left: 55px;
     height: 90px;
     float: right;
+    /* border-style: inset; */
+    background-color: grey;
 }
 
 .navbar-col {
     height: 90px;
-    padding-top: 18px;
-    padding-right: 50px;
+    padding-top: 20px;
+    padding-right: 55px;
     float: right;
 }
 
 .nav-buttons {
     font-size: 20px;
     float: right;
+    /* give each button its own border and use radius */
 }
 
 .navbar {
@@ -30,5 +26,57 @@
 }
 
 a {
+    color: gold;
+}
+
+.row-1 {
+    border-bottom-style: groove;
+    border-bottom-width: 5px;
+    margin-bottom: 75px;
+}
+
+.content-col {
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 45px;
+    height: 450px;
+}
+
+.sub-head {
+    font-size: 35px;
+    color: gold;
+}
+
+p {
+    font-size: 20px;
+}
+
+.auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+.row-3 {
+    margin-top: 105px;
+    margin-botton: 0;
+    position: relative;
+    bottom: 0;
+}
+
+.footer-col {
+    position: relative;
+    bottom: 0;
+    height: 70px;
+    line-height: 60px;
+    background-color: grey;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: gold;
+}
+
+.footer-text {
     color: gold;
 }
