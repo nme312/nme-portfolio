@@ -47,6 +47,8 @@ a {
 .sub-head {
     font-size: 35px;
     color: gold;
+    border-bottom-style: solid;
+    border-color: gray;
 }
 
 p {
@@ -85,7 +87,22 @@ p {
 
 /* Portfolio Page Alterations */
 
+.portfolio-col {
+    height: 1100px;
+}
 
+.portfolio-sub-head {
+    margin-bottom: 40px;
+}
+
+.images-div {
+    margin-left: 28px;
+}
+
+.link-images {
+    width: 245px;
+    margin: 25px;
+}
 
 /* Contact Page Alterations */
 
