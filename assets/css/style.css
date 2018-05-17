@@ -1,3 +1,5 @@
+/* Basic Template/About Page css */
+
 .name-plate-col {
     font-size: 35px;
     padding-top: 16px;
@@ -61,7 +63,7 @@ p {
 
 .row-3 {
     margin-top: 105px;
-    margin-botton: 0;
+    margin-bottom: 0;
     position: relative;
     bottom: 0;
 }
@@ -79,4 +81,14 @@ p {
 
 .footer-text {
     color: gold;
+}
+
+/* Portfolio Page Alterations */
+
+
+
+/* Contact Page Alterations */
+
+.contact-col {
+    padding-bottom: 450px;
 }
